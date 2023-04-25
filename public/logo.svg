@@ -1,0 +1,16 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 451" width="78" height="80">
+	<title>New Project</title>
+	<style>
+		tspan { white-space:pre } 
+		.s0 { fill: #bf360c } 
+		.s1 { fill: #bf360c;stroke: #f2edea;stroke-width: 15 } 
+		.t2 { font-size: 150px;fill: #f6ece7;font-weight: 400;font-family: "DejaVuSans", "DejaVu Sans" } 
+	</style>
+	<path id="Shape 1" class="s0" d="m218 446c-116.7 0-211-98.3-211-220 0-121.7 94.3-220 211-220 116.7 0 211 98.3 211 220 0 121.7-94.3 220-211 220z"/>
+	<path id="Shape 2" class="s1" d="m218 331c-58.6 0-106-49.2-106-110 0-60.8 47.4-110 106-110 58.6 0 106 49.2 106 110 0 60.8-47.4 110-106 110z"/>
+	<path id="Shape 3" class="s1" d="m-268-172c-27.6 0-50-22.3-50-50 0-27.7 22.4-50 50-50 27.7 0 50 22.3 50 50 0 27.7-22.3 50-50 50z"/>
+	<text id="Orly Ph" style="transform: matrix(1,0,0,1,524,267)" >
+		<tspan x="0" y="0" class="t2">O</tspan><tspan  y="0" class="t2">r</tspan><tspan  y="0" class="t2">l</tspan><tspan  y="0" class="t2">y</tspan><tspan  y="0" class="t2"> </tspan><tspan  y="0" class="t2">P</tspan><tspan  y="0" class="t2">h
+</tspan>
+	</text>
+</svg>
