@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en-US" prefix="og: http://ogp.me/ns#">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Orlando Sarceda Jr Resume</title>
+  <meta property="og:locale" content="en_US">
+  <meta property="og:title">
+  <meta property="og:site_name" content="Orly Resume">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://orly-ph.com/resume/index.html">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title">
+  <link rel="canonical" href="https://orly-ph.com/resume/index.html">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/favico.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favico.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favico.png">
+  <link rel="shortcut icon" type="image/png" sizes="192x192" href="images/favico.png">
+  <meta name="msapplication-TileImage" content="https://orly-ph.com/favico.png">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="crossorigin">
+  <link rel="preload" as="style"
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&amp;display=swap"
+    media="print" onload="this.media='all'"><noscript>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&amp;display=swap">
+  </noscript>
+  <link rel="stylesheet" href="css/style.css">
+  <style type="text/css">
+    html,
+    body,
+    #content {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      width: 100%;
+      overflow: hidden;
+    }
+
+    body,
+    #content {
+      position: relative;
+      overflow: hidden;
+      background-color: #434A54;
+    }
+
+    #content {
+      overflow: auto;
+      -webkit-overflow-scrolling: touch;
+    }
+
+    #download-bar {
+      height: 59px;
+      z-index: 999;
+      width: 100%;
+      background-color: #fff;
+      border-bottom-width: 2px !important;
+    }
+
+    .device-icon svg {
+      stroke: #434A54;
+      cursor: pointer;
+      opacity: 0.5;
+      width: 30px;
+      height: 30px;
+    }
+
+    .device-icon.active svg,
+    .device-icon:hover svg {
+      opacity: 1;
+    }
+
+    #tablet svg {
+      width: 25px;
+      height: 25px;
+      margin-left: 6px;
+      margin-right: 6px;
+    }
+
+    #mobile svg {
+      width: 20px;
+      height: 20px;
+    }
+
+    iframe {
+      margin: 0 auto;
+      display: block;
+      position: relative;
+    }
+
+    .device-frame {
+      border: 10px solid #111827;
+      border-radius: 5px;
+      box-sizing: content-box;
+    }
+
+    .btn-link {
+      font-weight: 400;
+    }
+
+    .visible-sm {
+      display: none;
+    }
+
+    @media (max-width: 960px) {
+      .btn {
+        padding: 0.5rem 1rem;
+        border-radius: 3px;
+      }
+
+      .hidden-mobile {
+        display: none;
+      }
+
+      .visible-sm {
+        display: inline;
+      }
+    }
+
+    #loaderWrapper {
+      margin: 0 auto;
+      height: 100%;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .loader {
+      color: #eee;
+      font-size: 20px;
+      width: 1em;
+      height: 1em;
+      border-radius: 50%;
+      position: relative;
+      text-indent: -9999em;
+      -webkit-animation: load4 1.3s infinite linear;
+      animation: load4 1.3s infinite linear;
+      -webkit-transform: translateZ(0);
+      -ms-transform: translateZ(0);
+      transform: translateZ(0);
+    }
+
+    @-webkit-keyframes load4 {
+
+      0%,
+      100% {
+        box-shadow: 0 -3em 0 0.2em, 2em -2em 0 0em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 0;
+      }
+
+      12.5% {
+        box-shadow: 0 -3em 0 0, 2em -2em 0 0.2em, 3em 0 0 0, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em;
+      }
+
+      25% {
+        box-shadow: 0 -3em 0 -0.5em, 2em -2em 0 0, 3em 0 0 0.2em, 2em 2em 0 0, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em;
+      }
+
+      37.5% {
+        box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 0, 2em 2em 0 0.2em, 0 3em 0 0em, -2em 2em 0 -1em, -3em 0em 0 -1em, -2em -2em 0 -1em;
+      }
+
+      50% {
+        box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 0em, 0 3em 0 0.2em, -2em 2em 0 0, -3em 0em 0 -1em, -2em -2em 0 -1em;
+      }
+
+      62.5% {
+        box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 0, -2em 2em 0 0.2em, -3em 0 0 0, -2em -2em 0 -1em;
+      }
+
+      75% {
+        box-shadow: 0em -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0.2em, -2em -2em 0 0;
+      }
+
+      87.5% {
+        box-shadow: 0em -3em 0 0, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0, -2em -2em 0 0.2em;
+      }
+    }
+
+    @keyframes load4 {
+
+      0%,
+      100% {
+        box-shadow: 0 -3em 0 0.2em, 2em -2em 0 0em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 0;
+      }
+
+      12.5% {
+        box-shadow: 0 -3em 0 0, 2em -2em 0 0.2em, 3em 0 0 0, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em;
+      }
+
+      25% {
+        box-shadow: 0 -3em 0 -0.5em, 2em -2em 0 0, 3em 0 0 0.2em, 2em 2em 0 0, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em;
+      }
+
+      37.5% {
+        box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 0, 2em 2em 0 0.2em, 0 3em 0 0em, -2em 2em 0 -1em, -3em 0em 0 -1em, -2em -2em 0 -1em;
+      }
+
+      50% {
+        box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 0em, 0 3em 0 0.2em, -2em 2em 0 0, -3em 0em 0 -1em, -2em -2em 0 -1em;
+      }
+
+      62.5% {
+        box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 0, -2em 2em 0 0.2em, -3em 0 0 0, -2em -2em 0 -1em;
+      }
+
+      75% {
+        box-shadow: 0em -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0.2em, -2em -2em 0 0;
+      }
+
+      87.5% {
+        box-shadow: 0em -3em 0 0, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0, -2em -2em 0 0.2em;
+      }
+    }
+  </style>
+</head>
+
+<body id="top">
+
+  </header>
+  <div class="noflicker" id="content">
+    <div id="loaderWrapper">
+      <div class="loader">Loading...</div>
+    </div><iframe id="iframe" width="100%" height="100%" frameborder="0" src="right-resume.html"
+      scrolling="yes"></iframe>
+  </div><button class="btn btn-sm btn-secondary" id="scrolltop">
+    <div class="sr-only">Scroll to Top</div>
+    <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+        class="feather feather-chevron-up">
+        <polyline points="18 15 12 9 6 15" />
+      </svg></div>
+  </button>
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script>var currentHeight = 0
+    var currentDevice = 'desktop'
+    var deviceMap = {
+      'tablet': {
+        width: 800,
+        height: 1024
+      },
+      'mobile': {
+        width: 400,
+        height: 800
+      }
+    }
+    $(document).ready(function () {
+      adjustIframe()
+      setTimeout(hideLoader, 5000) // max 5 second loader
+
+      $('iframe').on('load', function () {
+        hideLoader()
+      });
+      $(window).resize(adjustIframe)
+
+      $('.device-icon').click(function () {
+        currentDevice = $(this).data('device')
+        $('.device-icon').removeClass('active')
+        $(this).addClass('active')
+        adjustIframe()
+      })
+    })
+
+    function hideLoader() {
+      document.getElementById('loaderWrapper').style.display = "none";
+    }
+
+    function adjustIframe() {
+      currentHeight = ($(window).height()) - 20
+      $("#iframe").attr("height", currentHeight + "px")
+      $("#iframe").attr("width", '100%')
+
+      if (currentDevice == 'desktop') {
+        $("#iframe").removeClass('device-frame')
+      } else {
+        $("#iframe").addClass('device-frame')
+        var height = deviceMap[currentDevice].height
+        if (height > currentHeight) height = currentHeight
+        $("#iframe").attr("height", height)
+        $("#iframe").attr("width", deviceMap[currentDevice].width)
+      }
+    }
+  </script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
