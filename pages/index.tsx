@@ -49,7 +49,14 @@ export default function Home({toggleTheme, theme}:any) {
           <span className='ml-2 leading-10'>Orly Ph</span>
         </div>
         {/* <Typography>Hello World!</Typography> */}
-        <DarkLightSwitch toggleTheme={toggleTheme} />
+        <div className='flex gap-x-2'>
+            <a className='group transition duration-300' href='/resume/index.html'>
+              <div className=''>resume</div>
+              
+              <span className="block max-w-full group-hover:bg-slate-500 transition-all duration-500 h-0.5 bg-slate-600"></span>
+            </a>
+           <DarkLightSwitch toggleTheme={toggleTheme} />
+        </div>
       </div>
       <div>
         <div className='relative'>
