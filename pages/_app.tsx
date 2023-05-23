@@ -28,7 +28,7 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <ThemeProvider theme={theme == "dark" ? darkTheme : lightTheme}>
       <Head>
-        <title>{`Orly's Portfolio`}</title>
+        <title>{`Orly&apos;s Portfolio`}</title>
       </Head>
       <GlobalStyles />
       <Component {...pageProps} toggleTheme={toggleTheme} theme={theme} />
