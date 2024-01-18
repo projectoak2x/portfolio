@@ -1,4 +1,5 @@
 import ImageCard from "@/Atoms/ImageCard";
+import Link from 'next/link';
 
 export default function Experience() {
   return (
@@ -26,9 +27,9 @@ export default function Experience() {
             <ImageCard imageSrc="/discord-chatbot.png" title="Discord Bot" description="Chatgpt integration in discord" />
             <ImageCard imageSrc="/cloud_base_plant_monitoring.png" title="Cloud Based plant monitoring" description="Uses the IOT to monitor..." />
           </div>
-          <div className="bg-slate-700 h-10 leading-10 font-semibold w-24 m-auto" style={{ textAlign: "center", color: "#FFF" }}  >
+          <Link href={'/portfolio'} className="bg-slate-700 h-10 leading-10 font-semibold w-24 m-auto" style={{ textAlign: "center", color: "#FFF" }}  >
             View All
-          </div>  
+          </Link>  
         </div>
       </div>
     </>
