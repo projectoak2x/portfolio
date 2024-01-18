@@ -19,7 +19,7 @@ const ImageCard  = ({ imageSrc, title, description, skills }:ImageCardProps) => 
       <div className="text-xs">
         <div className="max-w-[230px] mx-auto flex flex-row flex-wrap">
           {
-            skills && skills.map((skill) => <Chip title={skill} /> )
+            skills && skills.map((skill, index) => <Chip key={index} title={skill} /> )
           }
         </div>
       </div>
