@@ -28,7 +28,7 @@ export default function FullPortfolio() {
             <ImageCard imageSrc="/works/paraclete.png" title="Paraclete Go" description="Cetralize AI Tools" skills={["Aws", "Azure", "Web Scrapper", "Laravel", "Vue", "Chrome Extension"]} />
             <ImageCard imageSrc="/discord-chatbot.png" title="Discord Bot" description="Chatgpt integration in discord" skills={["Openaiapi", "Discordapi", "Mongodb", "Express"]} />
             <ImageCard imageSrc="/works/express-time-tracker.PNG" title="Express Time Tracker" description="Time Tracking App" skills={["Django", "Nginx", "Heroku", "Jquery"]} />
-            <ImageCard imageSrc="/works/wincove.png" title="Wincove" description="A news investment site" skills={["Nextjs", "Typescript", "Css", "Javascript"]} />
+            <ImageCard imageSrc="/works/wincove.PNG" title="Wincove" description="A news investment site" skills={["Nextjs", "Typescript", "Css", "Javascript"]} />
             <ImageCard imageSrc="/works/rentall-ph.PNG" title="RentAll" description="Vehicle Rentall App" skills={["Laravel", "Bootstrap", "Jquery"]} />
             <ImageCard imageSrc="/works/xauru.PNG" title="Xauru Site" description="Wordpress Site with custom api" skills={["Wordpress", "Php", "Bootstrap", "Javascript"]} />
             <ImageCard imageSrc="/works/allaboutai.PNG" title="AllAboutAI" description="Page for Chatbot Subscription" skills={["Paypal", "Maya", "Markdown"]} />
