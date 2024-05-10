@@ -1,0 +1,55 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Player</title>
+    <style>
+        #video-list {
+            display: flex;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+        #video-list a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 id="videoTitle">Bunny</h1>
+    <div>
+        <video id="videoPlayer" controls >
+            <source src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4">
+          </video>
+    </div>
+    <script>
+        const videoList = [
+            {
+                title: "bunny",
+                url: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4'
+            },
+            {
+                title: "Elephant",
+                url: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4'
+            },
+            {
+                title: "Blaze",
+                url: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4'
+            },
+        ]
+        window.onload = function() {
+            const params = new URLSearchParams(window.location.search);
+            const videoId = parseInt(params.get('video'))-1;
+            const videoPlayer = document.getElementById('videoPlayer');
+            videoPlayer.src = videoList[videoId].url
+            const videoTitle = document.getElementById('videoTitle');
+            videoTitle.innerHTML = videoList[videoId].title
+
+            // videoPlayer.onended = function() {
+            //     let videoCount = parseInt(sessionStorage.getItem("videoCount") || '0', 10);
+            //     sessionStorage.setItem("videoCount", videoCount + 1);
+            // };
+        };
+    </script>
+</body>
+</html>

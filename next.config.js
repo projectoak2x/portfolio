@@ -16,6 +16,14 @@ const nextConfig = {
         source: "/vue-test-app",
         destination: "/vue-test-app/index.html", // Assuming your file is in public/resume/index.html
       },
+      {
+        source: "/video-page",
+        destination: "/video-page/index.html", // Assuming your file is in public/resume/index.html
+      },
+      {
+        source: "/video-page/video",
+        destination: "/video-page/video.html", // Assuming your file is in public/resume/index.html
+      },
     ];
   },
 };
